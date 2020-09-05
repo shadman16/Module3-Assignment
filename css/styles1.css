@@ -1,0 +1,72 @@
+body{
+	font-size: 16px;
+	color:black;
+	background-color: #fff;
+	/*font family is used to declare font size*/
+	font-family: "Oxygen",sans-serif;
+}
+#header-nav{
+	position: relative;
+	background-color: yellow;
+	/*The border radius and the border =0 is used 
+	so we dont have rounded corners*/
+	border-radius: 0;
+	border:0;
+}
+.navbar-brand h1{
+font-family: "lora",serif;
+	color:#557c3e;
+	font-size: 1.5em;
+	text-transform: uppercase;
+	font-weight: bold;
+	text-shadow: 1px 1px 1px #222;
+	margin-top: 0;
+	margin-bottom: 0;
+	line-height: .75;
+}
+#nav-list li{
+	font-family: "lora",serif;
+	font-size: 1.5em;
+	text-align: center;
+	margin-right: 15px;
+}
+.menu-header{
+	
+	text-shadow: 1px 1px 1px #222;
+
+}
+#chicken-tile,#beef-tile,#sushi-tile{
+	border:2px solid #3F0C1F;
+	background-color: grey;
+	
+	padding: 5px auto 5px auto;
+	margin-top: 10px;
+}
+@media(min-width: 1200px){
+#chicken-tile{
+	left: 0px;
+	overflow: auto;
+}
+#beef-tile{
+	left: -60px;
+	
+}
+
+#sushi-tile{
+	margin-left: -40px;
+	float:left;
+}
+}
+#row-work{
+	width: 100%;
+	position: relative;
+
+}
+#row-work h3{
+	text-align: center;
+	text-shadow: 1px 1px 1px #222;
+
+}
+#nav-list li{
+	border-bottom:2px solid #3F0C1F; 
+}
